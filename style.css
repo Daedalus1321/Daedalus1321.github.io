@@ -5,3 +5,7 @@ body {
 footer {
 	background-color: #3c7a47;
 }
+
+.light {
+	text-color: white;
+}
