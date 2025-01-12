@@ -2,12 +2,22 @@
 	--head-h: 0;
 	--content-h: 0;
 	--footer-h: 0;
+	
 }
 
-.material-symbols-outlined {
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 350;
+  src: url(https://asherhausam.com/resources/fonts/Material_Symbols_Outlined);
+}
+
+.mso {
+  font-family: 'Material Symbols Outlined';
+  
   font-variation-settings:
   'FILL' 0,
-  'wght' 400,
+  'wght' 350,
   'GRAD' 0,
   'opsz' 24
 }
