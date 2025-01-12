@@ -5,7 +5,7 @@
   font-family: 'mso';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format('woff2'), url(../resources/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff2'), local('Material Symbols Outlined');
+  src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format('woff2 supports variations'), (https://fonts.gstatic.com/s/materialsymbolsoutlined/v222/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format('woff2-variations'), url(../resources/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff2 supports variations'), url(../resources/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2) format('woff2-variations'), local('Material Symbols Outlined');
 }
 
 .mso {
@@ -25,8 +25,7 @@
 
 span.size-20 {
   font-size: 80px;
-  font-variation-settings: 'opsz' 20, 'wght' 800;
-  font-weight: 350;
+  font-variation-settings: 'opsz' 80, 'wght' 400,'FILL' 0.9;
 }
 
 @font-face {
