@@ -150,6 +150,8 @@ div {
 }
 
 .content {
+	flex-grow:1;
+	
 	width: 75%;
 	max-width: 64em;
 	
