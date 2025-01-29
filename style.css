@@ -23,10 +23,10 @@
     'opsz' 48;
 }
 
-.mso.link {
+.mso.fit {
 	position:relative;
-	top:3px;
-	right:3px;
+	top:0.15em;
+    right:0.15em;
 }
 
 @font-face {
@@ -102,7 +102,10 @@ div {
     max-width: 1440px;
 	
 	margin: 1em auto 1em;
-	
+}
+
+.title.meta {
+	visibility: collapse;
 }
 
 .title table {
@@ -141,46 +144,77 @@ div {
 }
 
 .content {
-	flex-grow: 1;
-	
 	width: 75%;
 	max-width: 64em;
 	
-	margin: 0% auto 0%;	
-	padding: 0.5em;
+	margin: 0 auto 0;	
 	
 	background-color: rgb(255,240,230);
 	border-radius: 20px;
+	
+	padding: 1em;
 }
 
 .content h2 {
-	font-size: 34px;
+	display: table;
+	min-width: 10em;
+	
+	color:rgb(0,0,0);
+	
+	margin:0 0 0.5em;
 	
 	border-style: none none solid;
 	border-width: 2px;
 	
-	display: table-cell;
+	font-size: 34px;
+	font-weight: 600;
+	
 }
 
 .content p {
+	margin:0.5em 0 0.5em;
+	
+	color:rgb(0,0,0);
+	
 	font-size: 28px;
 	text-align: left;
 }
 
+.mso.bug {
+    text-decoration:none;
+    color:rgb(0,0,0);
+    font-size:28;
+}
+
+.bug a:link {
+    color:inherit;
+}
+
+.bug a:visited {
+	color:inherit;
+}
+
+.head a:visited {
+    color:rgb(255,255,255);
+    text-decoration:none;
+}
+
+.head a:hover {
+    background-color: rgb(40,40,40);
+}
+
 .footer {	
-	width: 75%;
+	width: 100%;
 	max-width: 60em;
 	
     text-align: center;
 	color: white;
 	
-	margin: 0% auto;
+	margin: 2em auto 0;
 	padding: 10px;
     
     background-color: rgb(15,15,15);
 }
-
-
 
 .footer a:link {
 	color:white;
