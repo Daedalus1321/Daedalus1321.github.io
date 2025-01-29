@@ -11,7 +11,7 @@
 .mso {
   font-family: 'mso';
   font-style: normal;
-  font-size: 80px;
+  font-size: 24px;
   display: inline-block;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
@@ -21,11 +21,6 @@
     'wght' 400,
     'GRAD' 0,
     'opsz' 48;
-}
-
-span.size-20 {
-  font-size: 80px;
-  font-variation-settings: 'opsz' 80, 'wght' 400,'FILL' 0.9;
 }
 
 @font-face {
@@ -47,6 +42,7 @@ body {
 	background-color: rgb(35,35,35);
 	
 	font-family: "os";
+	font-size: 24px;
 	
 	display: flex;
 	flex-direction: column;
