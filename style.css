@@ -105,12 +105,17 @@ div {
 	
 }
 
+.title table {
+	table-layout: auto;
+	width: fit-content;
+}
+
 .title td {
 	color:rgb(255,240,230);
     font-size: 18.5px;
     
-    margin-top: 0em;
     text-align: left;
+    display: inline;
 }
 
 .title th.name {
@@ -118,7 +123,7 @@ div {
     font-size: 45px;
     font-weight: bold;
     
-    margin-top: 1em;
+    margin-top: 0em;
     margin-bottom: 0em;
     text-align: left;
     
@@ -127,8 +132,7 @@ div {
 }
 
 .title td.date {
-	border-spacing: 0em;
-	padding: 0em;
+	margin-right: 1em;
 }
 
 .title td.version {
