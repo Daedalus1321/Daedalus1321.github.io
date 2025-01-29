@@ -1,5 +1,7 @@
 
-
+html {
+	width:100%;
+}
 
 @font-face {
   font-family: 'mso';
@@ -55,6 +57,8 @@ body {
 	
 	position: relative;
 	min-height: 100vh;
+	
+	width:100%;
 	
 	margin: 0px;
 }
@@ -186,6 +190,11 @@ div {
     font-size:28;
 }
 
+div.note{
+	border: 2px solid white;
+	padding: 2px;
+}
+
 .bug a:link {
     color:inherit;
 }
@@ -205,7 +214,6 @@ div {
 
 .footer {	
 	width: 100%;
-	max-width: 60em;
 	
     text-align: center;
 	color: white;
@@ -214,6 +222,14 @@ div {
 	padding: 10px;
     
     background-color: rgb(15,15,15);
+}
+
+.footer p{
+	margin: 0.25em auto 0.25em;
+}
+
+.footer.top p{
+	margin: 10em auto 0.25em;
 }
 
 .footer a:link {
