@@ -44,7 +44,7 @@ span.size-20 {
 
 
 body {
-	background-color: #6fbf7e;
+	background-color: rgb(35,35,35);
 	
 	font-family: "os";
 	
@@ -71,7 +71,7 @@ div {
     max-height: 100px;
     padding: 10px;
     
-    background-color: darkgray;
+    background-color: rgb(50,50,50);
 }
 
 .content {
@@ -83,7 +83,7 @@ div {
 	
 	padding: 10px;
 	
-	background-color: gray;
+	background-color: rgb(230,220,180);
 }
 
 .footer {	
