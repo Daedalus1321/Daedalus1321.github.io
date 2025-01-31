@@ -101,7 +101,7 @@ div {
 }
 
 .head a:hover {
-    color:grey;
+    background-color: rgb(40,40,40);
 }
 
 .title {
