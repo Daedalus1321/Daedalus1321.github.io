@@ -1,4 +1,4 @@
-function update(){        
+function updateLinks(){        
     let topBar = document.getElementById("top_bar");   
     topBar.innerHTML = '<a href="https://asherhausam.com">'+
     '<span class="mso fit" >home</span></a>'+
