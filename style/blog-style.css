@@ -208,15 +208,6 @@ div.note{
 	color:inherit;
 }
 
-.head a:visited {
-    color:rgb(255,255,255);
-    text-decoration:none;
-}
-
-.head a:hover {
-    background-color: rgb(40,40,40);
-}
-
 .footer {	
 	width: 100%;
 	
