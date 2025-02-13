@@ -2,17 +2,44 @@
 <html>
 <head>
     <title>Asher Hausam - BLOG HOME</title>
-    <link rel="stylesheet" href="https://asherhausam.com/style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://asherhausam.com/style/blog-style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-	 <h1>Blog Homepage</h1>
-	 <p><a href="../blog/about_me/">About Me</a><br></p>
-	 <p><a href="../blog/1/">Post 1 - "First Post" - 2024/12/24</a></p>
-	 <p><a href="../blog/2/">Post 2 - "RPG Category" - 2024/12/24</a></p>
+    <script src="https://asherhausam.com/scripts/loadUpdatingContent.js"></script>
+    <script src="../scripts/loadUpdatingContent.js"></script>
+    <script>window.onload = updateLinks;</script>
+
+    <div class="head" id="top">
+        <p id="top_bar"></p>
+    </div>
+     
+    <div class="title">
+       <table>
+       <tr><th colspan="2" class="name">BLOG HOMEPAGE</th></tr>
+       <!-- ><tr>
+           <td class="date">YYYY/MM/DD</td>
+           <td class="version">V#</td>
+       </tr>
+        -->
+       </table>
+    </div>
+    
+    <div class="content">
+     <h2>About me!</h2>
+     <p><a href="/blog/about_me/">About Me</a><br></p>
+     
+     <h2>Blog posts</h2>
+     <p><a href="/blog/1/">Post 1 - "First Post" - 2024/12/24</a></p>
+     <p><a href="/blog/2/">Post 2 - "RPG Category" - 2024/12/24</a></p>
+    </div>
+    
+    
+    <div class="footer">
+       <p>Check out my socials!</p>
+       <p id="socials"></p>
+    </div>	 
+	 
 </body>
-<footer>
-    <p><a href="../">back</a> | <a href="https://asherhausam.com">back home</a></p>
-</footer>
 </html>
