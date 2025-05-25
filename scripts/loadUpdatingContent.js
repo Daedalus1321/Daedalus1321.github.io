@@ -10,7 +10,7 @@ function updateLinks(){
     '<a href="/sitemap/"><span class="mso fit">menu</span>more</a>';
         
     let socials=document.getElementById("socials");
-        socials.innerHTML = '<p>Check out my socials!</p>' + 
+        socials.innerHTML = '<p><b>Check out my socials!</b></p>' + 
     '<a href="https://www.linkedin.com/in/asher-hausam-208a2021a/"><span class="mso fit">work</span>LinkedIn</a>'+
     ' | '+
     '<a href="https://www.instagram.com/asherhausam/"><span class="mso fit">photo_camera</span>Instagram</a>'+
