@@ -203,7 +203,8 @@ div.note{
 }
 
 a.blend {
-	color:inherit
+	color:inherit;
+	text-decoration:inherit;
 }
 
 a.blend a:link {
