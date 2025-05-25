@@ -7,9 +7,12 @@
 </head>
 
 <body>
+<script src="https://asherhausam.com/scripts/loadUpdatingContent.js"></script>
+    <script src="/scripts/loadUpdatingContent.js"></script>
+    <script>window.onload = updateLinks;</script>
 
 <div class="head" id="top">
-    <p><a href="https://asherhausam.com"><span class="mso fit" >home</span></a> | <a href="/blog/"><span class="mso fit">menu_book</span>blog</a> | <a style="display:hidden" href="/rpg/"><span class="mso fit">strategy</span>rpg</a></p>   
+    <p id="top_bar"><a href="https://asherhausam.com"><span class="mso fit" >home</span></a></p>
 </div>
 
 <div class="title">
@@ -22,7 +25,14 @@
 
 <div class="content">
      <p>That wasn't supposed to happen...</p>
-     <p>Try doing it again, but like, correctly this time</p>
+     <p><a onclick="history.back()">Go Back and try again :)</a></p>
 </div>
+
+<div class="footer">
+       <p>Check out my socials!</p>
+       <p id="socials"></p>
+       <p id="update"></p>
+    </div>
+
 </body>
 </html>
