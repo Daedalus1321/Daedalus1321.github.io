@@ -1,6 +1,6 @@
 function updateLinks(){        
     let topBar = document.getElementById("top_bar");   
-    topBar.innerHTML = '<a href="https://asherhausam.com">'+
+        topBar.innerHTML = '<a href="https://asherhausam.com">'+
     '<span class="mso fit" >home</span></a>'+
     ' | ' +
     '<a href="/blog/"><span class="mso fit">menu_book</span>blog</a>' +
@@ -16,3 +16,6 @@ function updateLinks(){
     ' | '+
     '<a href="https://github.com/Daedalus1321"><span class="mso fit">code</span>Github</a>'
     }
+    
+    let lastDate=document.getElementById("update");
+            lastDate.innerHTML = "This site last updated : 2025/05/24"

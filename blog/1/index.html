@@ -3,15 +3,22 @@
 <head>
     <title>Asher Hausam - BLOG 1</title>
     <link rel="stylesheet" href="https://asherhausam.com/style.css">
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-
     <script src="https://asherhausam.com/scripts/loadUpdatingContent.js"></script>
     <script src="/scripts/loadUpdatingContent.js"></script>
     
     <script>window.onload = updateLinks;</script>
+
+    <script>
+    function entertheportal(){
+    	var pocket = document.getElementById("pocketdimension");
+    	
+    	pocket.style.display = "block";
+    }
+    </script>
 
 <div class="head" id="top">
         <p id="top_bar"><a href="https://asherhausam.com"><span class="mso fit" >home</span></a></p>
@@ -30,10 +37,14 @@
 </div>
 
 <div class="content">
-        <p>Welcome to my blogosphere!</p>
-        <p>Now you're trapped and you can never leave :)</p>
+        <p>Welcome to my own personal blogosphere pocket dimension!</p>
+        <p>I've trapped you in my portal to madness, where you will surely go crazy at ludicrous speed.</p>
         
-        <p><br>Now you're trapped and you can never leave :)</p>
+        <p><br>Please kindly enter the following portal --> <span style="font-size:40px;" class="mso fit" onclick="entertheportal">cyclone</span></p>
+    
+        <div id="pocketdimension" style="display:none;">
+            <p>Yaay consensual portalling!</p>
+        </div>
     
     <a href="../"><span class="mso fit">arrow_back</span>back</a>
     
