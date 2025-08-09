@@ -18,7 +18,7 @@ function updateLinks(){
     '<a href="https://github.com/Daedalus1321"><span class="mso fit">code</span>Github</a>'
     
     let lastDate=document.getElementById("update");
-            lastDate.innerHTML = '<p>This site last updated : 2025/05/24</p>'
+            lastDate.innerHTML = '<p>This site last updated : 2025/08/08</p>'
             lastDate.style.fontSize = "18px";
             lastDate.style.color = "rgb(45,45,45)";
             
