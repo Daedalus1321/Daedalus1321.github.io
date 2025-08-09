@@ -186,11 +186,12 @@ div {
 }
 
 .content p {
-	margin:0.5em 0 0.5em;
+	margin: 0.5em 0 1em;
 	
 	color:rgb(0,0,0);
 	
-	font-size: 28px;
+	line-height: 1.6;
+	font-size: 22px;
 	text-align: left;
 }
 
